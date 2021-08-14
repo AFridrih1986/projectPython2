@@ -7,5 +7,4 @@ p = soup.select('p')
 print(type(p))
 
 print(len(p))
-print(p[0].attrs)    
-
+print(p[0].attrs)
