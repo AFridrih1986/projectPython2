@@ -1,0 +1,162 @@
+1629130934374	geckodriver	INFO	Listening on 127.0.0.1:49261
+1629130937428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileGcnahI"
+1629130939239	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofileGcnahI\\search.json.mozlz4", (void 0)))
+1629130944097	Marionette	INFO	Listening on port 49270
+1629130944577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+1629131104107	Marionette	INFO	Stopped listening on port 49270
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 9512, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 9512, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629131112925	geckodriver	INFO	Listening on 127.0.0.1:49430
+1629131116067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofiledileG9"
+1629131118453	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofiledileG9\\search.json.mozlz4", (void 0)))
+1629131126717	Marionette	INFO	Listening on port 49438
+1629131126819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript error: https://yastatic.net/partner-code-bundles/42645/7afcbee34c7b6c06602d.js, line 2: Error: Can not find element with selector "#context_7_4"
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+1629131138775	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: , line 0: uncaught exception: Object
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.warn: "Resource  of root-node was not found."
+JavaScript error: https://static.avito.ru/s/cc/bundles/d0161996b5460792ffd5.js, line 1: ChunkLoadError: Loading chunk 7166988f failed.
+(error: https://static.avito.ru/s/cc/chunks/7166988f.e38ddd04a7f0cf239bbc.js)
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+console.error: "Error while calling actor 'domwalker's method 'search'" "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode]"
+console.error: ({})
+console.error: (new Error("Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.child4/domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:79:0)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/domwalker23, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:499:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:113:18\nstop@resource://devtools/client/inspector/node-picker.js:176:18\n_destroyToolbox@resource://devtools/client/framework/toolbox.js:3747:24\ndestroy@resource://devtools/client/framework/toolbox.js:3685:10\n_forgetBrowserWindow@resource://devtools/client/framework/devtools-browser.js:702:17\nhandleEvent@resource://devtools/client/framework/devtools-browser.js:723:26\n", "resource://devtools/shared/protocol/Front.js", 103))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child4/customhighlighter285, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:289:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nhide@resource://devtools/client/fronts/highlighters.js:32:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:640:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\n_beforeShowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:356:22\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:543:26\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:55:25\nonPickerHovered@resource://devtools/client/inspector/inspector.js:1909:23\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\n_onHovered@resource://devtools/client/inspector/node-picker.js:199:10\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:333:13\nonPacket@resource://devtools/client/devtools-client.js:482:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 103))
+1629131643657	Marionette	INFO	Stopped listening on port 49438
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629131669001	geckodriver	INFO	Listening on 127.0.0.1:49814
+1629131672841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile3akkSJ"
+1629131677421	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofile3akkSJ\\search.json.mozlz4", (void 0)))
+[Parent 7592, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1629131696688	Marionette	INFO	Listening on port 49823
+1629131697046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+1629131723961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+1629131869605	Marionette	INFO	Stopped listening on port 49823
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629131905954	geckodriver	INFO	Listening on 127.0.0.1:50094
+1629131909023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilel3CX1F"
+1629131910201	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Temp\\rust_mozprofilel3CX1F\\search.json.mozlz4", (void 0)))
+1629131916356	Marionette	INFO	Listening on port 50103
+1629131917206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+[GFX1-]: Couldn't sanitize RENDERER device: NVS 5200M
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript error: https://static.avito.ru/s/cc/bundles/d0161996b5460792ffd5.js, line 1: ChunkLoadError: Loading chunk 7166988f failed.
+(error: https://static.avito.ru/s/cc/chunks/7166988f.e38ddd04a7f0cf239bbc.js)
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H, line 251: unreachable code after return statement
+1629132369128	Marionette	INFO	Stopped listening on port 50103
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

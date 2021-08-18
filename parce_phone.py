@@ -39,3 +39,5 @@ class Bot:
         size = image.size
         self.crop(location, size)
 
+if __name__ == '__main__':
+    Bot().number_phone

@@ -1,6 +1,7 @@
 import datetime
 import random
-
+from collections import namedtuple
+from dataclasses import dataclass
 import requests, bs4
 import pandas as pd
 import urllib
@@ -8,9 +9,7 @@ import installations
 import time
 import fake_useragent
 from random import randint
-from dataclasses import dataclass
 import parce_phone
-
 
 @dataclass
 class Advertisement:
@@ -146,7 +145,8 @@ def get_advertisement(url_advertisement):
                                                        'title-info-metadata-item-redesign']).text.strip()
 
         advertisement.company = soup.find(lambda tag: tag.name == 'div' \
-                                                      and tag.get('class') == ['seller-info-col']).text.replace('\n','')
+                                                      and tag.get('class') == ['seller-info-col']).text.replace('\n',
+                                                                                                                '')
 
         advertisement.contact = soup.find(lambda tag: tag.name == 'div' \
                                                       and tag.get('class') == ['seller-info-label']) \
@@ -194,5 +194,3 @@ print(advertisement.number)
 print(advertisement.views)
 print(advertisement.address)
 print(advertisement.description)
-
-
